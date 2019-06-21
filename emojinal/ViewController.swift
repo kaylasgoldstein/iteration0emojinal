@@ -11,8 +11,15 @@ import UIKit
 class ViewController: UIViewController {
   
     @IBAction func showMessage(sender: UIButton) {
-        let alertController = UIAlertController(title:"okayyy", message:"hey",preferredStyle:.alert)
+        let alertController = UIAlertController(title:"are you emojinal?", message:"hey",preferredStyle:.alert)
+        alertController.addAction(UIAlertAction(title: "ok", style: UIAlertAction.Style.default, handler: nil))
+        
+        present(alertController,animated: true, completion: nil)
+        
+        
+        
     }
+    
     //when a user clicks on an emoji, a phrase should shopw up
     override func viewDidLoad() {
         super.viewDidLoad()
