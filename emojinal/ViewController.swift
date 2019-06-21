@@ -26,6 +26,20 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    let emojis = ["🤩": "when the DJ plays old twon road", "🙄": "when shady shannon comes to camp", "😻": "when there's rice krispies for snack", "🥳": "me because my birthday is soon!!!!!"]
+    
+    @IBAction func showMessages(sender: UIButton) {
+        let selectedEmoji = sender.titleLabel?.text
+    }
+    
+    
+   // let emojis = ["🤩":"starEyes","🙄":"annoyed", "😻":"cat","🥳":"birthday"]
+    
+    
+    
+    
+    
+    
+    
 }
 
